@@ -50,11 +50,12 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp LS(1) &kp LS(2) &kp LS(3) &kp LS(4) &kp LS(5) &kp LS(6) &kp LS(7) &kp LS(8) &kp LS(9) &kp LS(0) &kp UNDER
-   &kp ESC   &kp RA(1) &kp RA(2) &kp RA(3) &kp RA(4) &kp RA(5) &kp RA(6) &kp RA(7) &kp RA(8) &kp RA(9) &kp RA(0) &kp GRAVE
+   &kp TAB   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT &kp CARET &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp UNDER
+   &kp ESC   &trans    &trans    &trans    &kp TILDE &trans    &trans    &trans    &trans    &trans    &trans    &kp GRAVE
    &kp LSHFT &trans    &trans    &trans    &trans    &trans    &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
                     	         &kp LGUI  &trans    &kp BSPC  &kp DEL   &trans    &kp RALT
                         >;
                 };
+
         };
 };
